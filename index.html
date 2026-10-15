@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LIFELINE — Autonomous first response for city parks · Jack Verbel</title>
+<meta name="description" content="LIFELINE is an autonomous first-response vehicle for city parks, built around older visitors and powered by LAND CORE. A LAND × CarDesign Academy Un-Car concept by Jack Verbel.">
+<meta name="author" content="Jack Verbel">
+<meta property="og:type" content="website">
+<meta property="og:title" content="LIFELINE — Help that comes to you">
+<meta property="og:description" content="An autonomous first-response pod for city parks, powered by LAND CORE. A LAND × CarDesign Academy Un-Car concept by Jack Verbel.">
+<meta property="og:image" content="/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0b0b0c">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="/styles.css">
+<link rel="preload" as="image" href="/img/hero-1400.webp" imagesrcset="/img/hero-800.webp 800w, /img/hero-1400.webp 1400w, /img/hero-2200.webp 2200w" imagesizes="100vw">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="land" viewBox="0 0 349 74.75"><path d="M267.1,13 L267,30.1 L267.4,30.8 L310.5,30.8 L313.2,30.9 L317.1,31.6 L320,32.6 L322.2,33.9 L324.9,36.4 L325.1,37 L325.8,37.6 L326.9,40.2 L327.1,42.1 L327.1,45.2 L326.9,47.5 L326.1,49.2 L326,50.1 L324.9,52 L322.5,54.5 L319.1,56.4 L314.8,57.5 L311.8,57.8 L267.6,57.8 L267,58.5 L267,74.6 L321.9,74.6 L321.9,74.4 L322.6,73.9 L325.4,73.2 L330,71.4 L335.1,68.4 L340,64.2 L342.8,61.1 L344.8,58.1 L344.9,57.5 L345.8,56.2 L346,55.2 L346.8,54 L347,52.6 L347.8,50.9 L348.1,47.9 L348.6,46.4 L348.9,46.4 L348.9,40.4 L348.5,40.2 L348.1,39.2 L347.8,36.2 L347,34.5 L346.9,33.5 L346,32 L345.6,30.8 L343.6,27.5 L341.9,25.2 L338.6,22 L334.1,18.8 L330.6,16.9 L325.1,14.8 L321.9,13.9 L315.8,12.9 L311.1,12.6 L267.8,12.6Z M0,12.6 L0,74.6 L55.8,74.6 L55.9,74 L56.9,72.9 L57,72.4 L61.8,66.1 L62.1,65.2 L64.8,61.9 L65,61.2 L67,58.9 L67.2,58 L66.5,57.6 L21.2,57.6 L20.9,57.1 L20.9,13.1 L20.4,12.6Z M179.5,11.9 L179.4,74.6 L199,74.6 L198.9,42.8 L199.5,42.1 L200.5,42.6 L201.8,44 L236.2,74.2 L236.2,74.6 L255.4,74.6 L255.5,13.5 L255,12.8 L236.4,12.6 L235.9,13 L236,45.5 L235.9,45.9 L235.2,46.2 L234.5,45.9 L230.2,41.9 L195.9,11.8 L195.2,11.5 L180.4,11.5Z M67,74.1 L67,74.6 L92.8,74.6 L92.9,73.8 L113.6,45.1 L114,44.2 L118.8,38 L119.1,37.1 L120.2,35.9 L120.6,35.9 L121.9,37.2 L125.2,42.2 L127,44.4 L127.1,44.9 L129.9,48.4 L130.1,49 L137.8,59.4 L140.1,63 L140.9,63.8 L143,67 L147.9,73.5 L148.2,74.6 L174,74.6 L173.8,73.9 L173,73.2 L171.9,71.4 L171.1,70.6 L166.8,64.2 L165,62.1 L161.8,57.2 L157.1,51.1 L156.8,50.2 L154.9,48 L153.8,46.1 L152,44 L149.6,40.4 L147,37 L143.9,32.4 L141.9,29.9 L141.8,29.4 L140,27.2 L138.9,25.4 L137.1,23.2 L136.6,22.2 L132,16.1 L128.8,11.2 L127,9.1 L126.8,8.5 L120.5,0 L117.1,4.4 L116.9,5 L115.2,7 L110.9,13.4 L110.1,14.1 L109.9,14.8 L104.1,22.5 L102.9,24.5 L102.1,25.2 L98.9,30.1 L97.1,32.2 L96.9,32.9 L94.2,36.2 L93.9,37.1 L93.1,37.9 L89.9,42.6 L89.1,43.4 L88.8,44.2 L87,46.4 L85.9,48.2 L82.2,53 L81.8,54 L74.2,64.1 L73.9,65 L71.1,68.5 L71,69 L69.2,71.1 L68.8,72.1Z"/></symbol>
+</svg>
+
+<a class="skip" href="#purpose">Skip to content</a>
+
+<header class="nav" data-nav>
+  <a class="brand" href="#top" aria-label="LIFELINE — back to top"><span class="brand-pulse" aria-hidden="true"></span>LIFELINE</a>
+  <nav class="nav-links" aria-label="Sections">
+    <a href="#purpose">Purpose</a><a href="#vehicle">Vehicle</a><a href="#package">Experience</a><a href="#core">CORE</a><a href="#features">Features</a><a href="#process">Process</a>
+  </nav>
+  <a class="pill pill-sm" href="https://jack-verbel-portfolio.vercel.app" data-nav-cta>Portfolio</a>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <img class="hero-img" src="/img/hero-1400.webp" srcset="/img/hero-800.webp 800w, /img/hero-1400.webp 1400w, /img/hero-2200.webp 2200w" sizes="100vw" width="2752" height="1536" alt="LIFELINE parked on the Mall in Central Park at golden hour, its glass canopy raised to show three quilted seats.">
+  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="hero-copy wrap">
+    <p class="eyebrow eyebrow-light"><svg class="land-mark" aria-label="LAND"><use href="#land"/></svg> <span>× CarDesign Academy · The Un-Car · 2035</span></p>
+    <h1 class="display hero-title">Help that<br>comes to you.</h1>
+    <p class="hero-lede">LIFELINE is an autonomous first-response pod for city parks. It patrols the paths at walking pace and reaches anyone who falls in minutes, carrying shelter, medical kit and a doctor on video.</p>
+    <div class="btn-row">
+      <a class="pill pill-light" href="#usecase">See it respond</a>
+      <a class="pill pill-ghost" href="#purpose">Meet Ruth</a>
+    </div>
+  </div>
+  <a class="scroll-cue" href="#stats" aria-label="Scroll to the key numbers">Scroll</a>
+</section>
+
+<!-- STATS -->
+<section class="stats" id="stats" aria-label="Key numbers">
+  <div class="wrap stats-grid">
+    <div class="stat" data-rv><span class="stat-num">&lt;3<small>min</small></span><span class="stat-label">Response target on the path network</span></div>
+    <div class="stat" data-rv><span class="stat-num">3<small>+1</small></span><span class="stat-label">Seats, plus a standing medic</span></div>
+    <div class="stat" data-rv><span class="stat-num">4<small>×</small></span><span class="stat-label">LAND CORE 72&nbsp;V modules</span></div>
+    <div class="stat" data-rv><span class="stat-num">6<small>km/h</small></span><span class="stat-label">Walking pace among people, 25&nbsp;max</span></div>
+  </div>
+</section>
+
+<!-- 01 PERSON + PURPOSE -->
+<section class="section" id="purpose">
+  <div class="wrap">
+    <div class="sec-head" data-rv>
+      <p class="eyebrow">01 · Person + Purpose</p>
+      <h2 class="display">Meet Ruth.</h2>
+    </div>
+    <figure class="frame frame-wide" data-rv>
+      <img class="zoom" src="/img/persona-1400.webp" srcset="/img/persona-800.webp 800w, /img/persona-1400.webp 1400w, /img/persona-2200.webp 2200w" sizes="(min-width:1400px) 1320px, 94vw" width="2752" height="1536" loading="lazy" alt="Ruth, 78, resting on a bench by the Central Park Reservoir with coffee and a cane while a LIFELINE pod rolls slowly along the path behind her.">
+      <figcaption class="cap">Persona image · Ruth, 78, on the Reservoir path, 7:40 am</figcaption>
+    </figure>
+    <div class="split" data-rv>
+      <div>
+        <p class="lede">Ruth is 78, a retired schoolteacher from the Upper West Side. Every morning she walks the 2.5&nbsp;km Reservoir loop with a cane she insists she doesn't need. She lives alone. What worries her daughter isn't Ruth's heart. It's the fall nobody sees.</p>
+        <p class="body">About <strong>one in four adults over 65</strong> falls each year.<sup><a href="#src-1" id="ref-1">1</a></sup> In a park the size of Central Park, the hardest part often isn't the injury. It's the minutes spent alone on the ground before help can find you on an interior path. LIFELINE is designed to close that gap.</p>
+      </div>
+      <dl class="five-w">
+        <div><dt>Who</dt><dd>Older park visitors like Ruth, anyone hurt on a path, and the park medics and rangers who respond.</dd></div>
+        <div><dt>Where</dt><dd>Central Park, New York. 843 acres and around 42&nbsp;million visits a year.<sup><a href="#src-2" id="ref-2">2</a></sup> Geofenced to the park's drives and paved paths; never public roads.</dd></div>
+        <div><dt>What</dt><dd>A small autonomous pod that brings a seat, shelter, medical kit and a live doctor to the person on the ground.</dd></div>
+        <div><dt>How</dt><dd>Six pods patrol at walking pace. A fall alert, park help point or 911 dispatch sends the nearest one, which then carries the patient to the gate to meet the ambulance.</dd></div>
+        <div><dt>Why</dt><dd>Ambulances are built for streets, not footpaths. Nobody should wait alone for the first minutes of help.</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- WHERE: patrol map -->
+<section class="section section-mist" id="where" aria-labelledby="where-title">
+  <div class="wrap">
+    <div class="sec-head sec-head-row" data-rv>
+      <div>
+        <p class="eyebrow">Operating environment</p>
+        <h2 class="display display-md" id="where-title">Six pods.<br>One park.</h2>
+      </div>
+      <p class="body sec-aside">The fleet runs a patrol loop on Central Park's drives and main paths, spaced so every point on the network sits within about 400&nbsp;m of a pod. At response speed that's under three minutes. Pods rotate back to the depot for CORE swaps, so coverage never drops.</p>
+    </div>
+    <figure class="map" data-rv>
+      <svg viewBox="0 0 1000 250" role="img" aria-labelledby="map-t map-d">
+        <title id="map-t">Schematic map of LIFELINE's patrol network in Central Park</title>
+        <desc id="map-d">Central Park drawn with north to the right, showing the patrol loop, six pods spaced along it, their 400 metre coverage circles, and a call at the Mall answered by the nearest pod.</desc>
+        <defs>
+          <clipPath id="park"><rect x="20" y="25" width="960" height="190" rx="10"/></clipPath>
+        </defs>
+        <rect class="m-park" x="20" y="25" width="960" height="190" rx="10"/>
+        <g clip-path="url(#park)">
+          <g class="m-cover">
+            <circle cx="120" cy="120" r="78"/><circle cx="292" cy="58" r="78"/><circle cx="470" cy="190" r="78"/>
+            <circle cx="640" cy="52" r="78"/><circle cx="790" cy="188" r="78"/><circle cx="905" cy="80" r="78"/>
+          </g>
+          <ellipse class="m-water" cx="615" cy="120" rx="92" ry="62"/>
+          <path class="m-water" d="M250 48 C285 40 330 52 352 70 C372 88 346 104 316 98 C292 94 282 112 262 104 C240 96 232 60 250 48Z"/>
+          <path class="m-water" d="M905 170 C930 160 962 168 968 186 C972 202 940 210 916 202 C896 196 890 178 905 170Z"/>
+          <ellipse class="m-lawn" cx="455" cy="125" rx="52" ry="34"/>
+          <path class="m-lawn" d="M120 50 L205 50 L205 92 L120 92Z"/>
+          <path class="m-loop" d="M58 120 C58 70 90 46 140 46 L860 46 C920 46 952 80 952 120 C952 168 920 196 860 196 L140 196 C90 196 58 170 58 120Z"/>
+          <path class="m-route" d="M292 58 C268 80 236 98 214 116"/>
+          <g class="m-pods">
+            <circle cx="120" cy="120" r="7"/><circle cx="292" cy="58" r="7"/><circle cx="470" cy="190" r="7"/>
+            <circle cx="640" cy="52" r="7"/><circle cx="790" cy="188" r="7"/><circle cx="905" cy="80" r="7"/>
+          </g>
+          <circle class="m-ping" cx="292" cy="58" r="7"/>
+          <g class="m-call"><circle cx="214" cy="116" r="9"/><circle class="m-call-ring" cx="214" cy="116" r="9"/></g>
+        </g>
+        <g class="m-labels">
+          <text x="20" y="16">CENTRAL PARK WEST</text>
+          <text x="980" y="16" text-anchor="end">N →</text>
+          <text x="20" y="240">59 ST</text>
+          <text x="980" y="240" text-anchor="end">110 ST</text>
+          <text x="500" y="240" text-anchor="middle">FIFTH AVENUE</text>
+          <text class="m-tag" x="228" y="140">CALL · THE MALL</text>
+          <text class="m-tag" x="615" y="124" text-anchor="middle">RESERVOIR</text>
+        </g>
+      </svg>
+      <figcaption class="map-key">
+        <span><i class="k-pod"></i>LIFELINE pod</span><span><i class="k-cover"></i>~400&nbsp;m coverage</span><span><i class="k-loop"></i>Patrol loop</span><span><i class="k-call"></i>Call + nearest response</span><span class="k-note">Schematic, not to scale</span>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- USE CASE -->
+<section class="usecase" id="usecase" aria-labelledby="usecase-title">
+  <figure class="bleed">
+    <img class="zoom" src="/img/usecase-1400.webp" srcset="/img/usecase-800.webp 800w, /img/usecase-1400.webp 1400w, /img/usecase-2200.webp 2200w" sizes="100vw" width="2752" height="1536" loading="lazy" alt="Ruth sits in LIFELINE's middle seat wrapped in a thermal blanket while a park paramedic checks her blood pressure and a remote doctor talks to her on the vehicle's side screen.">
+    <figcaption class="cap cap-on-dark wrap">Use-case image · 4:12 pm, the Mall</figcaption>
+  </figure>
+  <div class="wrap">
+    <div class="sec-head" data-rv>
+      <p class="eyebrow">Use case</p>
+      <h2 class="display" id="usecase-title">The first<br>minutes.</h2>
+    </div>
+    <ol class="timeline">
+      <li data-rv><span class="t-time">00:00</span><h3>Ruth goes down</h3><p>Dizzy on the Mall, she sits down hard. Her watch flags the fall, and a passer-by presses a park help point.</p></li>
+      <li data-rv><span class="t-time">00:15</span><h3>The nearest pod turns</h3><p>The Parks Response Center confirms the call. The closest LIFELINE is 400&nbsp;m away on East Drive and reroutes, with "ON MY WAY" chevrons on its side screen and a park medic riding its rear step.</p></li>
+      <li data-rv><span class="t-time">02:30</span><h3>Canopy up</h3><p>It slows to walking pace among the crowd, stops beside her and lifts its canopy. A quilted seat at chair height and a blue-lit HELP pole are within reach.</p></li>
+      <li data-rv><span class="t-time">03:00</span><h3>A doctor joins</h3><p>An emergency physician appears on the side screen. Drawers slide out with a thermal blanket, water and dressings. The AED and oxygen are in lit niches, one step away.</p></li>
+      <li data-rv><span class="t-time">09:00</span><h3>To the gate</h3><p>Checked, warm and seated, Ruth rides at walking pace to the 72nd Street gate, where the ambulance can actually reach her.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- 02 VEHICLE DESIGN -->
+<section class="section section-mist" id="vehicle">
+  <div class="wrap">
+    <div class="sec-head sec-head-row" data-rv>
+      <div>
+        <p class="eyebrow">02 · Vehicle design</p>
+        <h2 class="display">A calm object,<br>not an ambulance.</h2>
+      </div>
+      <p class="body sec-aside">A soft lantern of a vehicle: matte graphite, gloss black glass at both ends, wheels pushed to the corners. It has no front and no back. The long glass canopy lifts the whole side open, so the vehicle becomes a shelter instead of a door you have to climb through. Amber light means "I'm here." Blue means "help."</p>
+    </div>
+
+    <figure class="compare" data-compare data-rv>
+      <img src="/img/side-closed-1400.webp" srcset="/img/side-closed-800.webp 800w, /img/side-closed-1400.webp 1400w, /img/side-closed-2200.webp 2200w" sizes="(min-width:1400px) 1320px, 94vw" width="3170" height="1344" loading="lazy" alt="Side view of LIFELINE with the glass canopy closed.">
+      <div class="compare-top"><img src="/img/side-open-1400.webp" srcset="/img/side-open-800.webp 800w, /img/side-open-1400.webp 1400w, /img/side-open-2200.webp 2200w" sizes="(min-width:1400px) 1320px, 94vw" width="3170" height="1344" loading="lazy" alt="The same side view with the canopy open, showing three quilted seats, grab poles and drawers."></div>
+      <div class="compare-handle" aria-hidden="true"><span></span></div>
+      <input class="compare-range" type="range" min="0" max="100" value="50" aria-label="Drag to compare canopy closed and canopy open">
+      <span class="compare-tag compare-tag-l">Open</span><span class="compare-tag compare-tag-r">Closed</span>
+    </figure>
+
+    <div class="specs" data-rv>
+      <div class="spec"><span class="spec-k">Length</span><span class="spec-v">3,980 mm</span></div>
+      <div class="spec"><span class="spec-k">Width</span><span class="spec-v">1,700 mm</span></div>
+      <div class="spec"><span class="spec-k">Height</span><span class="spec-v">1,720 mm<small>2,180 canopy open</small></span></div>
+      <div class="spec"><span class="spec-k">Wheelbase</span><span class="spec-v">2,860 mm</span></div>
+      <div class="spec"><span class="spec-k">Occupancy</span><span class="spec-v">3 seated<small>+1 medic on the step</small></span></div>
+      <div class="spec"><span class="spec-k">Speed</span><span class="spec-v">6 km/h<small>on paths · 25 max on drives</small></span></div>
+      <div class="spec"><span class="spec-k">Autonomy</span><span class="spec-v">Level 4<small>geofenced, remotely supervised</small></span></div>
+      <div class="spec"><span class="spec-k">Energy</span><span class="spec-v">4 × LAND CORE<small>72 V · ≈20 kWh</small></span></div>
+    </div>
+
+    <div class="gallery g-3" data-rv>
+      <figure class="frame"><img class="zoom" src="/img/end-800.webp" srcset="/img/end-800.webp 800w, /img/end-1400.webp 1400w, /img/end-2200.webp 2200w" sizes="(min-width:900px) 32vw, 94vw" width="2400" height="1792" loading="lazy" alt="Straight-on end view: a tall gloss black glass cap above a matte graphite body with a LAND badge."><figcaption class="cap">End elevation · identical at both ends</figcaption></figure>
+      <figure class="frame"><img class="zoom" src="/img/service-end-800.webp" srcset="/img/service-end-800.webp 800w, /img/service-end-1400.webp 1400w, /img/service-end-2200.webp 2200w" sizes="(min-width:900px) 32vw, 94vw" width="2752" height="1536" loading="lazy" alt="Three-quarter view of the service end with its flush battery-bay door and green charge-level bars."><figcaption class="cap">Service end · CORE bay door and charge bars</figcaption></figure>
+      <figure class="frame"><img class="zoom" src="/img/night-800.webp" srcset="/img/night-800.webp 800w, /img/night-1400.webp 1400w, /img/night-2200.webp 2200w" sizes="(min-width:900px) 32vw, 94vw" width="2752" height="1536" loading="lazy" alt="LIFELINE on night patrol in a misty, lamp-lit Central Park, its glass end cap glowing and a guidance light on the path."><figcaption class="cap">Night patrol · running band and path light</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- 03 PACKAGE + EXPERIENCE -->
+<section class="section" id="package">
+  <div class="wrap">
+    <div class="sec-head sec-head-row" data-rv>
+      <div>
+        <p class="eyebrow">03 · Package + Experience</p>
+        <h2 class="display">Everything<br>within reach.</h2>
+      </div>
+      <p class="body sec-aside">Built around one moment: someone hurt, sitting down. The floor steps in at 300&nbsp;mm and the seats sit at chair height (500&nbsp;mm), so you sit straight in. Supplies are below you, the medical wall is beside you, and the doctor is on the outside where the medic can see too.</p>
+    </div>
+
+    <figure class="package" data-rv>
+      <svg viewBox="0 -150 1320 700" role="img" aria-labelledby="pk-t pk-d">
+        <title id="pk-t">LIFELINE package, side elevation</title>
+        <desc id="pk-d">Side elevation with dimensions: 3,980 mm long, 2,860 mm wheelbase, 1,720 mm tall closed and 2,180 mm with the canopy open, seats at 500 mm. Numbered markers show the lidar caps, canopy, three seats with help poles, supply drawers, medical wall, four LAND CORE modules in the service-end bay, and the 550 mm worker step deployed with a medic standing on it.</desc>
+        <defs>
+          <marker id="tick" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M5 0 L5 10" class="pk-tick"/></marker>
+        </defs>
+        <line class="pk-ground" x1="40" y1="460" x2="1300" y2="460"/>
+        <!-- canopy open (ghost) -->
+        <g class="pk-ghost">
+          <rect x="255" y="-85" width="725" height="26" rx="8"/>
+          <line x1="285" y1="-59" x2="300" y2="34"/><line x1="950" y1="-59" x2="935" y2="34"/>
+        </g>
+        <!-- body -->
+        <path class="pk-body" d="M190 30 H1045 C1085 30 1115 58 1115 100 V330 C1115 368 1100 392 1078 400 L1060 422 H120 V360 C120 330 118 300 120 270 V100 C120 58 150 30 190 30Z"/>
+        <path class="pk-glass" d="M190 38 H232 V290 H128 V100 C128 62 154 38 190 38Z"/>
+        <path class="pk-glass" d="M1003 38 H1045 C1081 38 1107 62 1107 100 V290 H1003Z"/>
+        <rect class="pk-canopy" x="250" y="44" width="735" height="252" rx="18"/>
+        <!-- wheels -->
+        <circle class="pk-wheel" cx="260" cy="372.5" r="87.5"/><circle class="pk-hub" cx="260" cy="372.5" r="26"/>
+        <circle class="pk-wheel" cx="975" cy="372.5" r="87.5"/><circle class="pk-hub" cx="975" cy="372.5" r="26"/>
+        <!-- seats + drawers -->
+        <g class="pk-seat">
+          <path d="M370 335 V215 C370 202 380 196 392 196 H448 C460 196 470 202 470 215 V335Z"/>
+          <path d="M568 335 V215 C568 202 578 196 590 196 H646 C658 196 668 202 668 215 V335Z"/>
+          <path d="M766 335 V215 C766 202 776 196 788 196 H844 C856 196 866 202 866 215 V335Z"/>
+          <rect x="355" y="330" width="130" height="14" rx="6"/><rect x="553" y="330" width="130" height="14" rx="6"/><rect x="751" y="330" width="130" height="14" rx="6"/>
+        </g>
+        <g class="pk-drawer"><rect x="350" y="352" width="140" height="56" rx="4"/><rect x="548" y="352" width="140" height="56" rx="4"/><rect x="746" y="352" width="140" height="56" rx="4"/></g>
+        <g class="pk-pole"><line x1="519" y1="60" x2="519" y2="410"/><line x1="717" y1="60" x2="717" y2="410"/><circle cx="519" cy="190" r="6"/><circle cx="717" cy="190" r="6"/></g>
+        <!-- occupant (frontal, middle seat) -->
+        <g class="pk-person"><path class="pk-legs-o" d="M604 346 V418 M632 346 V418"/><path class="pk-legs" d="M604 346 V418 M632 346 V418"/><path class="pk-torso" d="M592 330 V198 C592 184 603 176 618 176 C633 176 644 184 644 198 V330Z"/><circle class="pk-torso" cx="618" cy="148" r="19"/></g>
+        <!-- medical wall -->
+        <rect class="pk-med" x="992" y="96" width="8" height="190"/>
+        <!-- CORE bay -->
+        <g class="pk-core"><rect x="1036" y="190" width="64" height="170" rx="4"/><line x1="1052" y1="196" x2="1052" y2="354"/><line x1="1068" y1="196" x2="1068" y2="354"/><line x1="1084" y1="196" x2="1084" y2="354"/></g>
+        <!-- worker step deployed + handle + medic -->
+        <rect class="pk-step" x="1112" y="430" width="140" height="10" rx="3"/>
+        <line class="pk-handle" x1="1124" y1="150" x2="1124" y2="280"/>
+        <g class="pk-medic"><circle cx="1190" cy="-2" r="17"/><path d="M1172 32 C1172 22 1208 22 1208 32 V230 H1172Z"/><path d="M1178 230 L1176 428 M1202 230 L1206 428"/><path d="M1176 70 L1128 160"/></g>
+        <!-- dimensions -->
+        <g class="pk-dim">
+          <line x1="120" y1="520" x2="1115" y2="520" marker-start="url(#tick)" marker-end="url(#tick)"/><text x="617" y="510" text-anchor="middle">OVERALL 3,980</text>
+          <line x1="260" y1="490" x2="975" y2="490" marker-start="url(#tick)" marker-end="url(#tick)"/><text x="617" y="482" text-anchor="middle">WHEELBASE 2,860</text>
+          <line x1="1115" y1="520" x2="1252" y2="520" marker-start="url(#tick)" marker-end="url(#tick)"/><text x="1184" y="510" text-anchor="middle">STEP 550</text>
+          <line x1="78" y1="460" x2="78" y2="30" marker-start="url(#tick)" marker-end="url(#tick)"/><text transform="translate(68 245) rotate(-90)" text-anchor="middle">1,720</text>
+          <line x1="40" y1="460" x2="40" y2="-85" marker-start="url(#tick)" marker-end="url(#tick)"/><text transform="translate(30 188) rotate(-90)" text-anchor="middle">2,180 CANOPY OPEN</text>
+          <line x1="540" y1="460" x2="540" y2="335" marker-start="url(#tick)" marker-end="url(#tick)"/><text x="548" y="452">SEAT 500</text>
+        </g>
+        <!-- numbered markers -->
+        <g class="pk-num">
+          <g transform="translate(176 66)"><circle r="15"/><text y="5">1</text></g>
+          <g transform="translate(616 -110)"><circle r="15"/><text y="5">2</text></g>
+          <g transform="translate(420 168)"><circle r="15"/><text y="5">3</text></g>
+          <g transform="translate(420 380)"><circle r="15"/><text y="5">4</text></g>
+          <g transform="translate(996 72)"><circle r="15"/><text y="5">5</text></g>
+          <g transform="translate(1068 164)"><circle r="15"/><text y="5">6</text></g>
+          <g transform="translate(1270 404)"><circle r="15"/><text y="5">7</text></g>
+        </g>
+      </svg>
+    </figure>
+    <ol class="pk-legend" data-rv>
+      <li><b>Lidar + cameras</b> in all four glass corners</li>
+      <li><b>Gull-wing canopy</b> lifts to 2,180&nbsp;mm and becomes a roof</li>
+      <li><b>Three seats</b> at 500&nbsp;mm, a HELP button on every pole</li>
+      <li><b>Supply drawers</b>: warmth, water + dressings, meds + diagnostics</li>
+      <li><b>Medical wall</b>: AED, trauma kit, oxygen in lit niches</li>
+      <li><b>4 × LAND CORE</b> standing upright in the service-end bay</li>
+      <li><b>Worker step</b> slides out 550&nbsp;mm with fold-out grab handles</li>
+    </ol>
+
+    <figure class="hotspots" data-rv>
+      <img class="hs-img" src="/img/drawers-open-1400.webp" srcset="/img/drawers-open-800.webp 800w, /img/drawers-open-1400.webp 1400w, /img/drawers-open-2200.webp 2200w" sizes="(min-width:1400px) 1320px, 94vw" width="2752" height="1536" loading="lazy" alt="LIFELINE with its canopy open and drawers pulled out, showing blankets, water and medical supplies, an AED, trauma kit, oxygen bottle and a video-call screen.">
+      <button class="hs" style="--x:55.7%;--y:25.6%" aria-describedby="hs1"><span>1</span></button><div class="hs-tip" id="hs1" role="tooltip"><b>Amber canopy light</b>Presence at dusk; it tells the crowd where to give room.</div>
+      <button class="hs" style="--x:45.7%;--y:45%" aria-describedby="hs2"><span>2</span></button><div class="hs-tip" id="hs2" role="tooltip"><b>HELP on every pole</b>One press opens a voice line to the Response Center.</div>
+      <button class="hs" style="--x:41.4%;--y:58%" aria-describedby="hs3"><span>3</span></button><div class="hs-tip" id="hs3" role="tooltip"><b>Chair-height seats</b>500&nbsp;mm, quilted and wipe-clean. A blue light marks the free seat.</div>
+      <button class="hs" style="--x:45%;--y:67.5%" aria-describedby="hs4"><span>4</span></button><div class="hs-tip" id="hs4" role="tooltip"><b>Three supply drawers</b>Thermal blankets · water and dressings · medication and diagnostics.</div>
+      <button class="hs" style="--x:69.1%;--y:36%" aria-describedby="hs5"><span>5</span></button><div class="hs-tip" id="hs5" role="tooltip"><b>AED + trauma kit</b>In lit, foam-lined niches. Unlocked the moment the canopy opens.</div>
+      <button class="hs" style="--x:75%;--y:47%" aria-describedby="hs6"><span>6</span></button><div class="hs-tip" id="hs6" role="tooltip"><b>Oxygen</b>Standard cylinder in a strapped slot beside the medical wall.</div>
+      <button class="hs" style="--x:82%;--y:40.3%" aria-describedby="hs7"><span>7</span></button><div class="hs-tip" id="hs7" role="tooltip"><b>Telehealth screen</b>An emergency physician on video, facing out so patient and medic both see them.</div>
+      <figcaption class="cap">Tap the numbers to explore</figcaption>
+    </figure>
+
+    <div class="gallery g-2" data-rv>
+      <figure class="frame"><img class="zoom" src="/img/seats-800.webp" srcset="/img/seats-800.webp 800w, /img/seats-1400.webp 1400w, /img/seats-2200.webp 2200w" sizes="(min-width:900px) 48vw, 94vw" width="2752" height="1536" loading="lazy" alt="Close-up of the quilted leather seats, chrome grab pole and its blue illuminated HELP button."><figcaption class="cap">Seats and grab poles</figcaption></figure>
+      <figure class="frame"><img class="zoom" src="/img/drawer-detail-800.webp" srcset="/img/drawer-detail-800.webp 800w, /img/drawer-detail-1400.webp 1400w, /img/drawer-detail-2200.webp 2200w" sizes="(min-width:900px) 48vw, 94vw" width="2752" height="1536" loading="lazy" alt="Three pull-out drawers holding thermal blankets, water bottles, dressings and medication boxes."><figcaption class="cap">Supply drawers</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- 04 LAND CORE -->
+<section class="section section-dark" id="core">
+  <div class="wrap">
+    <div class="sec-head sec-head-row" data-rv>
+      <div>
+        <p class="eyebrow eyebrow-light"><svg class="land-mark" aria-label="LAND"><use href="#land"/></svg> <span>04 · CORE</span></p>
+        <h2 class="display">Swap,<br>don't wait.</h2>
+      </div>
+      <p class="body sec-aside">Four LAND CORE 72&nbsp;V modules stand upright in a sealed bay at the service end, about 20&nbsp;kWh in total and enough for a full park day. A ranger slides one out by its handle with no tools, and spares charge from ordinary outlets at the park depot. Because CORE also works away from the vehicle, a module can be carried to an incident to power lights, a heater or medical equipment.</p>
+    </div>
+    <figure class="frame frame-wide" data-rv>
+      <img class="zoom" src="/img/core-swap-1400.webp" srcset="/img/core-swap-800.webp 800w, /img/core-swap-1400.webp 1400w, /img/core-swap-2200.webp 2200w" sizes="(min-width:1400px) 1320px, 94vw" width="2752" height="1536" loading="lazy" alt="A park technician slides a LAND CORE module out of LIFELINE's open service-end bay while a charged spare waits on a trolley.">
+      <figcaption class="cap cap-light">Service end, bay open · a charged module waits on the trolley</figcaption>
+    </figure>
+    <div class="core-grid">
+      <figure class="frame" data-rv><img class="zoom" src="/img/core-modules-800.webp" srcset="/img/core-modules-800.webp 800w, /img/core-modules-1400.webp 1400w, /img/core-modules-2200.webp 2200w" sizes="(min-width:900px) 56vw, 94vw" width="2752" height="1536" loading="lazy" alt="Close-up of LAND CORE battery modules on slide rails, one pulled halfway out by a gloved hand."><figcaption class="cap cap-light">Modules ride on slide rails and dock to rear connectors</figcaption></figure>
+      <ul class="core-list" data-rv>
+        <li><span class="core-k">Where</span><span>Service-end bay, behind a sealed lift-up door. Low and close to the rear axle.</span></li>
+        <li><span class="core-k">How many</span><span>Four upright 72&nbsp;V modules, ≈20&nbsp;kWh total.</span></li>
+        <li><span class="core-k">Swap</span><span>Under a minute per module, by hand, no tools.</span></li>
+        <li><span class="core-k">Charge</span><span>Spares charge overnight from standard outlets at the depot.</span></li>
+        <li><span class="core-k">Power Tap</span><span>Pull a module to run lights, a heater or kit at a scene.</span></li>
+        <li><span class="core-k">Status</span><span>Charge bars on the bay door show the state of the pack.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 05 KEY FEATURES -->
+<section class="section" id="features">
+  <div class="wrap">
+    <div class="sec-head" data-rv>
+      <p class="eyebrow">05 · Key features</p>
+      <h2 class="display">Built for<br>the worst minute.</h2>
+    </div>
+    <div class="features">
+      <article class="feature" data-rv>
+        <img class="zoom" src="/img/platform-step-800.webp" srcset="/img/platform-step-800.webp 800w, /img/platform-step-1400.webp 1400w, /img/platform-step-2200.webp 2200w" sizes="(min-width:900px) 48vw, 94vw" width="2752" height="1536" loading="lazy" alt="A park paramedic with a red backpack steps onto LIFELINE's deployed rear platform, holding a fold-out grab handle.">
+        <div class="feature-copy"><span class="f-num">01</span><h3>The worker step</h3><p>A 550&nbsp;mm tread plate slides out from under the service end, and two grab handles fold out of the glass cap. A park medic rides along at walking pace and steps off at the scene. When stowed, it disappears flush under the bumper.</p></div>
+      </article>
+      <article class="feature" data-rv>
+        <img class="zoom" src="/img/rain-800.webp" srcset="/img/rain-800.webp 800w, /img/rain-1400.webp 1400w, /img/rain-2200.webp 2200w" sizes="(min-width:900px) 48vw, 94vw" width="2752" height="1536" loading="lazy" alt="LIFELINE in the rain with its canopy raised as a roof over the seats.">
+        <div class="feature-copy"><span class="f-num">02</span><h3>A canopy that's a roof</h3><p>The whole side lifts. In rain it becomes a dry shelter over the seats, and at night its amber edge is a beacon a medic can find from across the lawn.</p></div>
+      </article>
+      <article class="feature" data-rv>
+        <img class="zoom" src="/img/aed-800.webp" srcset="/img/aed-800.webp 800w, /img/aed-1400.webp 1400w, /img/aed-2200.webp 2200w" sizes="(min-width:900px) 48vw, 94vw" width="2752" height="1536" loading="lazy" alt="The medical wall: AED and trauma kit in lit niches, an oxygen cylinder, and a doctor on the video-call screen.">
+        <div class="feature-copy"><span class="f-num">03</span><h3>Medical wall + doctor on call</h3><p>AED, trauma kit and oxygen in lit, foam-lined niches. Beside them a screen connects an emergency physician, who can see, talk and guide the first steps.</p></div>
+      </article>
+      <article class="feature" data-rv>
+        <img class="zoom" src="/img/side-platform-800.webp" srcset="/img/side-platform-800.webp 800w, /img/side-platform-1400.webp 1400w, /img/side-platform-2200.webp 2200w" sizes="(min-width:900px) 48vw, 94vw" width="3170" height="1344" loading="lazy" alt="Side view of LIFELINE with the canopy closed and a medic standing on the deployed step at one end.">
+        <div class="feature-copy"><span class="f-num">04</span><h3>No front, no back</h3><p>Identical ends and four-wheel steering. LIFELINE drives in on a narrow path and leaves the same way, without a three-point turn in a crowd. Lidar in all four glass corners sees around it.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 06 DESIGN DEVELOPMENT -->
+<section class="section section-mist" id="process">
+  <div class="wrap">
+    <div class="sec-head sec-head-row" data-rv>
+      <div>
+        <p class="eyebrow">06 · Design development</p>
+        <h2 class="display">It started<br>on paper.</h2>
+      </div>
+      <p class="body sec-aside">An early idea was a park bench that drives to you. That became three seats facing out under a lid that opens like a cabinet. From that first orthographic and perspective sketch, each round of iteration pushed one idea further: access, the medical wall, the service end and autonomy.</p>
+    </div>
+
+    <div class="gallery g-2" data-rv>
+      <figure class="frame frame-paper"><img class="zoom" src="/img/sketch-bench-900.webp" srcset="/img/sketch-bench-900.webp 900w, /img/sketch-bench-1800.webp 1800w" sizes="(min-width:900px) 48vw, 94vw" width="2000" height="1500" loading="lazy" alt="Pen sketch of an early concept: a rounded rolling bench."><figcaption class="cap">Early idea · the rolling bench</figcaption></figure>
+      <figure class="frame frame-paper"><img class="zoom" src="/img/sketch-original-900.webp" srcset="/img/sketch-original-900.webp 900w, /img/sketch-original-1800.webp 1800w" sizes="(min-width:900px) 48vw, 94vw" width="2000" height="1500" loading="lazy" alt="Original pen sketch: a side orthographic view and a three-quarter perspective of the vehicle with its canopy open."><figcaption class="cap">First ortho + perspective</figcaption></figure>
+    </div>
+
+    <h3 class="sub-head" data-rv>Iterations</h3>
+    <div class="gallery g-2" data-rv>
+      <figure class="frame frame-paper"><img class="zoom" src="/img/sketch-access-900.webp" srcset="/img/sketch-access-900.webp 900w, /img/sketch-access-1800.webp 1800w" sizes="(min-width:900px) 48vw, 94vw" width="2400" height="1792" loading="lazy" alt="Sketch iteration exploring a three-panel canopy, a seat that folds flat into a recovery bench and a low step-in sill, with callouts."><figcaption class="cap">A · Access: split canopy, fold-flat seat</figcaption></figure>
+      <figure class="frame frame-paper"><img class="zoom" src="/img/sketch-medical-900.webp" srcset="/img/sketch-medical-900.webp 900w, /img/sketch-medical-1800.webp 1800w" sizes="(min-width:900px) 48vw, 94vw" width="2390" height="1792" loading="lazy" alt="Sketch iteration of the medical wall with AED and trauma kit niche, oxygen slot, telehealth screen and pull-out drawers, with callouts."><figcaption class="cap">B · The medical wall</figcaption></figure>
+      <figure class="frame frame-paper"><img class="zoom" src="/img/sketch-service-900.webp" srcset="/img/sketch-service-900.webp 900w, /img/sketch-service-1800.webp 1800w" sizes="(min-width:900px) 48vw, 94vw" width="2390" height="1792" loading="lazy" alt="Sketch iteration of the service end with a swap-out LAND CORE bay, retractable worker step, grab handles and amber edge light, with callouts."><figcaption class="cap">C · Service end: CORE bay + worker step</figcaption></figure>
+      <figure class="frame frame-paper"><img class="zoom" src="/img/sketch-autonomy-900.webp" srcset="/img/sketch-autonomy-900.webp 900w, /img/sketch-autonomy-1800.webp 1800w" sizes="(min-width:900px) 48vw, 94vw" width="2390" height="1792" loading="lazy" alt="Sketch iteration of autonomy and lighting: corner sensors, lidar band, running-light band, path guidance light and a status screen, with callouts."><figcaption class="cap">D · Autonomy + light</figcaption></figure>
+    </div>
+
+    <ol class="steps" data-rv>
+      <li><span>01</span><b>Persona</b>Ruth, the Reservoir loop and the gap between a fall and an ambulance.</li>
+      <li><span>02</span><b>Sketch</b>Hand sketches: the rolling bench, then ortho + perspective.</li>
+      <li><span>03</span><b>Iterate</b>Four directions sketched over the same base, each with callouts.</li>
+      <li><span>04</span><b>Visualize</b>AI-assisted renders driven by the sketches, held to one design.</li>
+      <li><span>05</span><b>Refine</b>Consistency passes and LAND's exact wordmark applied by hand.</li>
+    </ol>
+
+    <aside class="disclosure" data-rv>
+      <h3>How AI was used</h3>
+      <p>The concept, persona, story, package and the original hand sketches are my own work. The photographic renders and the four sketch iterations were made with an image model (Google Nano Banana 2.1 via Runware), using my sketches and earlier renders as references and checked against one consistent design. Logos on the vehicle and the CORE modules were not generated: LAND's official wordmark was traced to a vector and composited onto each image so it is exact. People shown are AI-generated and fictional.</p>
+    </aside>
+  </div>
+</section>
+
+<!-- SUMMARY + KIT -->
+<section class="section" id="summary">
+  <div class="wrap summary">
+    <div data-rv>
+      <p class="eyebrow">Project summary</p>
+      <p class="summary-text">LIFELINE is an autonomous first-response vehicle for city parks, designed for 2035 around older visitors like Ruth, 78, who walks Central Park every morning. One in four adults over 65 falls each year, and inside a large park the hardest part is the wait between the fall and the ambulance. A fleet of six LIFELINE pods patrols the paths at walking pace. When someone falls or presses HELP, the nearest pod arrives within minutes and lifts its glass canopy to offer a seat, shelter, an AED, trauma kit, oxygen, blankets and water, plus a live video link to an emergency physician. A park medic can ride on its fold-out step. Four swappable LAND CORE batteries keep it running all day and can power equipment at the scene. LIFELINE then carries the patient to the nearest gate to meet the ambulance.</p>
+      <p class="cap">140 words</p>
+    </div>
+    <div class="kit" data-rv>
+      <p class="eyebrow">Submission kit</p>
+      <a class="kit-row" href="/downloads/lifeline-hero.jpg" download><span>Hero image</span><span>JPG · 2752 × 1536</span></a>
+      <a class="kit-row" href="/downloads/lifeline-usecase.jpg" download><span>Use-case image</span><span>JPG · 2752 × 1536</span></a>
+      <a class="kit-row" href="/downloads/lifeline-persona.jpg" download><span>Persona image</span><span>JPG · 2752 × 1536</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section section-mist" id="faq">
+  <div class="wrap faq-wrap">
+    <div class="sec-head" data-rv>
+      <p class="eyebrow">Questions</p>
+      <h2 class="display display-md">Answered.</h2>
+    </div>
+    <div class="faq" data-rv>
+      <details><summary>Does LIFELINE replace an ambulance?</summary><p>No. It covers the first minutes, which are the hardest to reach inside a park. It brings shelter, kit and a doctor to the person, then carries them to a gate where an ambulance can meet them.</p></details>
+      <details><summary>Who is in control?</summary><p>Every pod is supervised from a Parks Response Center that can take over remotely or stop it. On scene, the park medic is in charge: the vehicle holds position and waits for them.</p></details>
+      <details><summary>Can anyone ride it?</summary><p>It isn't a shuttle. It only carries people who need help, plus one companion, and the medic on the step.</p></details>
+      <details><summary>How does it move through crowds?</summary><p>At walking pace, with a soft chime and its path projected on the ground ahead. It yields to people and stops if anyone steps in front of it.</p></details>
+      <details><summary>What happens when the batteries run low?</summary><p>Pods rotate past the depot through the day. A ranger swaps the LAND CORE modules by hand in a few minutes while the others keep the park covered.</p></details>
+      <details><summary>What about privacy?</summary><p>Sensors are used for driving and processed on board. Video is shared only during an active call, and the screen always shows when the doctor can see you.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <img class="cta-img" src="/img/night-1400.webp" srcset="/img/night-800.webp 800w, /img/night-1400.webp 1400w, /img/night-2200.webp 2200w" sizes="100vw" width="2752" height="1536" loading="lazy" alt="">
+  <div class="cta-shade" aria-hidden="true"></div>
+  <div class="wrap cta-copy" data-rv>
+    <p class="eyebrow eyebrow-light">LIFELINE · 2035</p>
+    <h2 class="display">Nobody waits<br>alone.</h2>
+    <div class="btn-row">
+      <a class="pill pill-light" href="https://jack-verbel-portfolio.vercel.app">More work by Jack</a>
+      <a class="pill pill-ghost" href="mailto:Jverbel730@gmail.com">Get in touch</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-grid">
+    <div>
+      <p class="foot-brand">LIFELINE</p>
+      <p class="foot-note">A concept by Jack Verbel for the <svg class="land-mark land-mark-ink" aria-label="LAND"><use href="#land"/></svg> × CarDesign Academy "Un-Car" challenge, Fall 2026. LAND and CORE are trademarks of LAND, shown here in reference to the competition.</p>
+    </div>
+    <ol class="sources">
+      <li id="src-1">CDC, older adult falls reported by state: about one in four adults 65+ report a fall each year. <a href="https://stacks.cdc.gov/view/cdc/122749" rel="noopener">stacks.cdc.gov</a> <a href="#ref-1" aria-label="Back to reference 1">↩</a></li>
+      <li id="src-2">Central Park: 843 acres; an estimated 42 million visits a year (2016 estimate). <a href="https://en.wikipedia.org/wiki/Central_Park" rel="noopener">wikipedia.org</a> <a href="#ref-2" aria-label="Back to reference 2">↩</a></li>
+    </ol>
+    <div class="foot-links">
+      <a href="https://jack-verbel-portfolio.vercel.app">Portfolio</a>
+      <a href="https://www.linkedin.com/in/jack-verbel-5a95a12a8/" rel="noopener">LinkedIn</a>
+      <a href="mailto:Jverbel730@gmail.com">Jverbel730@gmail.com</a>
+    </div>
+  </div>
+</footer>
+
+<dialog class="lightbox" data-lightbox aria-label="Enlarged image">
+  <img alt="">
+  <button class="lb-close" type="button" aria-label="Close">Close</button>
+</dialog>
+
+<script src="/site.js" defer></script>
+</body>
+</html>
